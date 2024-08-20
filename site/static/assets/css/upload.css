@@ -1,0 +1,64 @@
+#upload-btn {
+    padding: 10px;
+    background-color: dodgerblue;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#upload-text {
+    font-family: sans-serif;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.Attach__container {
+    margin: auto;
+    margin-top: 7%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    min-height: 250px;
+    max-width: 50%;
+    overflow: hidden;
+    border: 1px dashed #9299a2;
+    border-radius: 6px;
+    color: #9299a2;
+    cursor: default;
+}
+.Attach__container > DIV{
+    margin: 2px auto 0;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
+}
+.Attach__container > div > label {
+    color: #74a3c7;
+    cursor: pointer;
+}
+.Attach__container > input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.Attach__container_after {
+    margin-left: 25%;
+    max-width: 50%;
+    font-size: 13px;
+    margin-top: 4px;
+    color: #aaa;
+    margin-bottom: 3%;
+}
+
+.buttonarea {  
+    max-width: 70%;
+    margin: auto;
+    margin-left: 25%;
+}
